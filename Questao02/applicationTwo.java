@@ -1,6 +1,6 @@
 package Questao02;
 
-public class applicationTwo {
+
 /*
 Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o
 preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando
@@ -24,14 +24,7 @@ Saída:
 ----------------------------------------------- Explicação -----------------------------------------------
 Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando a senha em Ya3&ab. 2 caracteres
 não são suficientes visto que a senha precisa ter um tamanho mínimo de 6 caracteres.
-
-
-
-
-
-
-     */
-
-
+*/
+public class applicationTwo {
 
 }
