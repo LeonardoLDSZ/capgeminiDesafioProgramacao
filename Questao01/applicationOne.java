@@ -29,7 +29,7 @@ public class applicationOne {
             for (int i = 0; i< nSimbolos; i++){
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.print("\r");
         }
         sc.close();
     }
