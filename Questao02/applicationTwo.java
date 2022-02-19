@@ -11,9 +11,9 @@ public class applicationTwo {
         String senha;
         final String senhaValida = "^(?:(?=.*\\d)(?=.*[!@#$%^&*()-+])(?=.*[a-z])(?=.*[A-Z]).*)$";
 
-        System.out.println("\nPara concluir seu cadastro, por favor, informe um nome e crie uma senha.");
+        System.out.println("\nPara concluir seu cadastro, por favor, informe um nome e crie uma senha forte.");
         System.out.println("=== === ===");
-        System.out.println("A senha deverá preencher os requisitos que seguem: ");
+        System.out.println("Para a senha ser considerada forte, é necessário que esta preencha os requisitos que seguem: ");
         System.out.println("Possuir no mínimo 6");
         System.out.println("Possuir no mínimo 1 digito (0-9)");
         System.out.println("Possuir no mínimo 1 letra em minúsculo");
@@ -28,7 +28,7 @@ public class applicationTwo {
             if (senha != null) {
                 if (senha.length() >= 6 && senha.matches(senhaValida)) {
                     System.out.println("\n=== === === === === === === === === === ");
-                    System.out.println("Senha válida, cadastro concluído " + nome + "!");
+                    System.out.println("Senha válida e forte, cadastro concluído " + nome + "!");
                     System.out.println("=== === === === === === === === === === ");
                     return;
                 } else {
