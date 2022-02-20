@@ -1,5 +1,5 @@
-# capgeminiDesafioProgramacao
-Desafio de Programação da Academia Capgemini
+# Desafio de Programação da Academia Capgemini
+
 
 O objetivo deste repositório é de apresentar a resolução das questões abaixo, propostas pelo Desafio de Programação da Capgemini. Para a resolução de tais questões, foi utilizado a linguagem JAVA e IDE IntelliJ.
 
