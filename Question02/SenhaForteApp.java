@@ -1,32 +1,37 @@
-package Questao02;
+package Question02;
 
 import java.util.Scanner;
 
-public class applicationTwo {
+public class SenhaForteApp {
+    public static String msgSucesso = "";
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String nome;
-        String senha;
-        final String senhaValida = "^(?:(?=.*\\d)(?=.*[!@#$%^&*()-+])(?=.*[a-z])(?=.*[A-Z]).*)$";
+
+        final String senhaForte = "^(?:(?=.*\\d)(?=.*[!@#$%^&*()-+])(?=.*[a-z])(?=.*[A-Z]).*)$";
 
         System.out.println("\nPara concluir seu cadastro, por favor, informe um nome e crie uma senha forte.");
         System.out.println("=== === ===");
-        System.out.println("Para a senha ser considerada forte, é necessário que esta preencha os requisitos que seguem: ");
-        System.out.println("Possuir no mínimo 6");
-        System.out.println("Possuir no mínimo 1 digito (0-9)");
-        System.out.println("Possuir no mínimo 1 letra em minúsculo");
-        System.out.println("Possuir no mínimo 1 letra em maiúsculo");
-        System.out.println("Possuir no mínimo 1 caractere especial - !@#$%^&*()+");
+        System.out.println("Para a senha ser considerada forte, é necessário que esta preencha os requisitos que seguem:" + "\n" +
+                "- Ter no mínimo 6 caracteres;" + "\n" +
+                "- Ter ao menos 1 dígito;" + "\n" +
+                "- Ter ao menos 1 caracter mínusculo;" + "\n" +
+                "- Ter ao menos 1 caracter maiusculo; e" + "\n" +
+                "- Ter ao menos 1 caracter especial (!@#$%^&*()-+)."
+        );
 
         System.out.print("\nInforme seu nome: ");
-        nome = sc.next();
+        String nome = sc.next();
         System.out.print("Informe sua senha: ");
+        String senha = sc.nextLine();
+
+        sc.close();
+
         while (sc.hasNextLine()) {
             senha = sc.next();
             if (senha != null) {
-                if (senha.length() >= 6 && senha.matches(senhaValida)) {
+                if (senha.length() >= 6 && senha.matches(senhaForte)) {
                     System.out.println("\n=== === === === === === === === === === ");
                     System.out.println("Senha válida e forte, cadastro concluído " + nome + "!");
                     System.out.println("=== === === === === === === === === === ");

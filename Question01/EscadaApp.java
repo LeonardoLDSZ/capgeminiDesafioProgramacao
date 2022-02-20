@@ -1,19 +1,8 @@
-package Questao01;
+package Question01;
 
 import java.util.Scanner;
 
-/* Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços.
-   A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.
-   Exemplo
-   Entrada: n = 6
-   Saida:           *
-                   **
-                  ***
-                 ****
-                *****
-               ******
-*/
-public class applicationOne {
+public class EscadaApp {
 
     public static void main (String [] args)
     {
@@ -29,7 +18,7 @@ public class applicationOne {
             for (int i = 0; i< nSimbolos; i++){
                 System.out.print("*");
             }
-            System.out.print("\r");
+            System.out.println("");
         }
         sc.close();
     }
