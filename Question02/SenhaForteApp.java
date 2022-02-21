@@ -3,7 +3,6 @@ package Question02;
 import java.util.Scanner;
 
 public class SenhaForteApp {
-    public static String msgSucesso = "";
 
     public static void main(String[] args) {
 
@@ -26,7 +25,6 @@ public class SenhaForteApp {
         System.out.print("Informe sua senha: ");
         String senha = sc.nextLine();
 
-        sc.close();
 
         while (sc.hasNextLine()) {
             senha = sc.next();
@@ -49,8 +47,11 @@ public class SenhaForteApp {
                 System.out.print("\nInforme nova senha:");
             }
         }
+        sc.close();
     }
 }
+
+
 
 
 
