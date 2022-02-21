@@ -3,6 +3,9 @@
 
 O objetivo deste repositório é de apresentar a resolução das questões abaixo, propostas pelo Desafio de Programação da Capgemini. Para a resolução de tais questões, foi utilizado a linguagem JAVA e IDE IntelliJ.
 
+Para executar o código, bastar dar um git clone https://github.com/LeonardoLDSZ/capgeminiDesafioProgramacao.git
+
+Seguem questões:
 
 Questão 01 - Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.   
 
