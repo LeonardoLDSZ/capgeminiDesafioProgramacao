@@ -1,26 +1,26 @@
-# Desafio de Programação da Academia Capgemini
+# Capgemini Academy Programming Challenge
 
 
-O objetivo deste repositório é de apresentar a resolução das questões abaixo, propostas pelo Desafio de Programação da Capgemini. Para a resolução de tais questões, foi utilizado a linguagem JAVA e IDE IntelliJ.
+The purpose of this repository is to present the resolution of the questions below, proposed by the Capgemini Programming Challenge. For the resolution of such questions, the language JAVA and IDE IntelliJ was used.
 
-Para executar o código, bastar dar um git clone https://github.com/LeonardoLDSZ/capgeminiDesafioProgramacao.git
+To run the code, just give a git clone https://github.com/LeonardoLDSZ/capgeminiDesafioProgramacao.git
 
-Seguem questões:
+Questions follow:
 
-Questão 01 - Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços. A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço.   
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Questão 02 - Débora se inscreveu em uma rede social para se manter em contato com seus amigos. A página de cadastro exigia o preenchimento dos campos de nome e senha, porém a senha precisa ser forte. O site considera uma senha forte quando ela satisfaz os seguintes critérios:
-
-- Possui no mínimo 6 caracteres.
-- Contém no mínimo 1 digito.
-- Contém no mínimo 1 letra em minúsculo.
-- Contém no mínimo 1 letra em maiúsculo.
-- Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
-
-Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string qualquer ser considerada segura. 
+Question 01 - Write an algorithm that shows on the screen a ladder of size n using the character * and spaces. The base and height of the ladder must be equal to the value of n. The last line must not contain any spaces.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Questão 03 - Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
+Question 02 - Débora signed up on a social network to keep in touch with her friends. The registration page required filling in the name and password fields, but the password must be strong. The site considers a password strong when it meets the following criteria:
+
+- It has at least 6 characters.
+- Contains at least 1 digit.
+- Contains at least 1 lowercase letter.
+- Contains at least 1 capital letter.
+- Contains at least 1 special character. The special characters are: !@#$%^&*()-+
+
+Deborah has typed a random string into the password field, but she is not sure if it is a strong password. To help Deborah, build an algorithm that informs what is the minimum number of characters that must be added for any string to be considered safe.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Question 03 - Two words can be considered anagrams of themselves if the letters of one word can be reallocated to form the other word. Given any string, develop an algorithm that finds the number of pairs of substrings that are anagrams.
